@@ -1,0 +1,48 @@
+baseURL = "http://yurizal-san.com/"			# Site's URL
+title = "Yurizal Susanto"					# Site's Name
+theme = "manis"
+copyright = "&copy; 2017 Yurizal Susanto"	# Copyright notice. Note: You can use HTML tag here
+pluralizeListTitles = false
+paginate = 10								# Minimum number of item before paginate navigation show up
+canonifyURL = true
+defaultContentLanguage = "in"
+
+[taxonomies]
+	tag = "tags"
+
+[params]
+	debugCSS = true							# If false use use minified CSS (ui.min.css)
+	# Site meta description
+	description = "Tempat saya kembali berpikir, jika kode sudah tidak berfungsi lagi."
+	tagline = "Pandangan awam pemula"		# Site's Tagline (Subtitle or Keyword)
+	themeAttrib = true						# If true give attribution to this theme
+	licenseURL = "/about/lisensi"			# URL to license file, can be outside of your domain
+
+	# 404 Configuration
+	head404 = "Maaf, halaman yang anda inginkan tidak dapat ditemukan."
+	sub404 = "Kembali ke halaman <a href='http://yurizal-san.com'>Utama</a>."
+
+	colorTheme = "#1eacfb"					# Color of your website
+	latestCount = 3							# Maximum number of item in Latest Posts or Works
+	faviconImg = ""							# Path to site's favicon image
+	dateFmt = "Jan 02, 2006"				# Date format in item list
+
+	# Code Highlighting (HighlightJS)
+	highlightJs = true
+	highlightJsLanguages = [ "go" ]
+	highlightJsStyle = "ocean"
+
+	# Social Links
+	email = "mail@yurizal-san.com"
+	github = "https://github.com/yursan9/"
+	twitter = "https://twitter.com/yuri_boya"
+
+# Edit the language if you want to translate your blog
+[languages.in]
+	lang = "in"
+	languageName = "Bahasa Indonesia"
+	weight = 1
+#[languages.en]
+#    lang = "en"
+#    languageName = "English"
+#    weight = 0
