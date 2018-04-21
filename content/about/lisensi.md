@@ -1,6 +1,6 @@
 +++
 title = "Lisensi"
-date = "2017-06-24T20:50:41+07:00"
+date = "2018-04-21"
 draft = false
 +++
 Lisensi dalam blog ini terbagi menjadi 2 bagian:
@@ -10,7 +10,7 @@ Lisensi dalam blog ini terbagi menjadi 2 bagian:
 
 ## Tulisan
 
-Semua tulisan dalam blog ini dilisensikan dengan lisensi Creative Common Atribusi-BerbagiSerupa ([CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)). Dengan pengecualian, kutipan dari tulisan orang lain memiliki lisensi yang dipegang orang itu masing-masing.
+Semua tulisan dalam blog ini dilisensikan dengan lisensi Creative Common Atribusi ([CC BY](https://creativecommons.org/licenses/by/4.0/)). Dengan pengecualian, kutipan dari tulisan orang lain memiliki lisensi yang dipegang orang itu masing-masing.
 
 Apa artinya tulisan di atas? Itu artinya saya memberikan izin penuh untuk anda mengutip, membagikan, atau membuat karya turunan dari tulisan yang ada di blog ini! ...tapi dengan syarat. Kalian harus memberikan atribusi untuk karya saya. Atribusinya berupa sepatah dua patah kata yang mereferensikan saya sebagai penulis, dan karya yang anda gunakan. Atribusi seperti ini:
 

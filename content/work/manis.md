@@ -8,17 +8,18 @@ draft = false
 workURL = "https://github.com/yursan9/manis-hugo-theme"
 +++
 
-Ini adalah sebuah tema yang minimalis dan responsif untuk Hugo *Static Site Generator*. Dibangun dengan memanfaatkan normalize.css dan terinspirasi dari Skeleton CSS.
+Ini adalah sebuah tema yang minimalis dan responsif untuk *Static Site Generator* Hugo. Dibangun dengan memanfaatkan normalize.css dan terinspirasi dari Skeleton CSS.
 
 ## Fitur
 
 Karena jiwa minimalis tema ini, bukan hanya tampilannya saja. Tapi fiturnya juga minimalis.
 
 - Warna utama dapat diatur
-- Code Highlighting (HighlightJS)
+- *Code Highlighting* (HighlightJS)
 - Responsif (terlihat baik di *Desktop* atau *Mobile*)
 - Ikon untuk Social Media
 - Dapat diartikan ke bahasa lain
+- Dukungan Disqus
 
 ## Lisensi
 

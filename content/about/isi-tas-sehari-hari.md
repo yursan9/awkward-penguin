@@ -1,6 +1,6 @@
 +++
 title = "Isi Tas Sehari-Hari"
-date = "2017-07-06T13:38:09+07:00"
+date = "2018-04-21"
 description = "Yang sehari-hari dibawa oleh saya dalam tas kuliah."
 draft = false
 +++
@@ -29,4 +29,4 @@ Sebutan kerennya *laptop*. Hal yang satu ini hampir setiap hari saya bawa jika p
 
 ## Lain-lain
 
-Selain barang yang disebutkan diatas, biasanya saya juga membawa kabel untuk mengisi daya ponsel dan *lalu*. Karena terkadang saya menginap di kampus, membawa satu set peralatan sikat gigi dan baju untuk ganti adalah kewajiban. Oh, tidak lupa payung sebelum hujan!
+Selain barang yang disebutkan diatas, biasanya saya juga membawa kabel untuk mengisi daya ponsel. Karena terkadang saya menginap di kampus, membawa satu set peralatan sikat gigi dan baju untuk ganti adalah kewajiban. Oh, tidak lupa payung sebelum hujan!
