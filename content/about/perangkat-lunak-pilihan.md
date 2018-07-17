@@ -1,7 +1,7 @@
 ---
 title: Perangkat Lunak Pilihan
 date: '2018-07-17'
-draft: true
+draft: false
 ---
 Di bawah ini adalah daftar perangkat lunak yang saya gunakan secara pribadi, kebanyakan adalah perangkat lunak bebas terbuka (*Free and Open Source Software*).
 
