@@ -10,6 +10,23 @@ defaultContentLanguage = "in"
 [taxonomies]
 	tag = "tags"
 
+[menu]
+	[menu.main]
+	identifier = "about"
+	name = "Tentang"
+	url = "/about"
+
+	[menu.main]
+	identifier = "blog"
+	name = "Blog"
+	url = "/blog"
+
+	[menu.main]
+	identifier = "work"
+	name = "Karya"
+	url = "/work"
+
+
 [params]
 	debugCSS = true							# If false use use minified CSS (ui.min.css)
 	# Site meta description
