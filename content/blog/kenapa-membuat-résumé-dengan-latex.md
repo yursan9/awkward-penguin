@@ -33,6 +33,4 @@ Namun dengan _version control_, biasanya saya pakai `git`, kita bisa membuat sat
 * Manfaatkan macro pada LaTeX untuk mengurangi penulisan sesuatu hal yang berulang.
 * Gunakan _version control_, ini penting!
 
-![Resume](/images/uploads/screenshot-from-2018-07-17-08-37-16.png)
-
 Jika tertarik dan ingin bertanya bisa kirim surel ke alamat surel saya.
