@@ -24,7 +24,7 @@ Saya hanya perlu membuat format saya sekali saja dan membiarkan LaTeX yang mengu
 
 ## Bisa menggunakan _Version Control_
 
-Résumé biasanya dibuat sesuai dengan pekerjaan yang ingin dilamar. Jika kita ingin mendaftar di posisi yang berbeda, isi résumé biasanya diubah untuk menampilkan pengalaman atau ketrampilan yang sesuai dengan kebutuhan pekerjaan. Orang-orang biasanya akan membuat dokumen dengan nama, `resume-lamaran-sisadmin.docx`, `resume-lamaran-job fair (1).docx`, dan kombinasi nama aneh lainnya.
+Résumé biasanya dibuat sesuai dengan pekerjaan yang ingin dilamar. Jika kita ingin mendaftar di posisi yang berbeda, isi résumé biasanya diubah untuk menampilkan pengalaman atau ketrampilan yang sesuai dengan kebutuhan pekerjaan. Orang-orang biasanya akan membuat dokumen dengan nama, *resume-lamaran-sisadmin.docx*, *resume-lamaran-job fair (1).docx*, dan kombinasi nama aneh lainnya.
 
 Namun dengan _version control_, biasanya saya pakai `git`, kita bisa membuat satu dokumen yang memiliki beberapa versi. Selain itu kita juga bisa dengan mudah melihat perbedaan dari setiap versi.
 
