@@ -3,6 +3,7 @@ title: Kenapa membuat Résumé dengan LaTeX?
 date: '2018-07-17'
 tags:
   - latex
+  - resume
 draft: true
 ---
 Memasuki akhir karir sebagai mahasiswa, saya mulai berpikir tentang membuat [résumé](https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9). Setelah mengubek internet tentang format résumé yang baik, kebanyakan menyarankan untuk membuat satu format tapi fleksibel.
