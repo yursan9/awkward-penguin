@@ -11,17 +11,17 @@ defaultContentLanguage = "in"
 	tag = "tags"
 
 [menu]
-	[menu.main]
+	[[menu.main]]
 	identifier = "about"
 	name = "Tentang"
 	url = "/about"
 
-	[menu.main]
+	[[menu.main]]
 	identifier = "blog"
 	name = "Blog"
 	url = "/blog"
 
-	[menu.main]
+	[[menu.main]]
 	identifier = "work"
 	name = "Karya"
 	url = "/work"
