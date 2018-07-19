@@ -4,6 +4,7 @@ backend:
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+display_url: https://yurizal-san.com
 
 collections:
     - name: "blog"
