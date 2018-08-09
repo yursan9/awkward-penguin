@@ -1,9 +1,9 @@
 ---
-title: 'Di Ambang Batas: Perspektif Mahasiswa'
+title: 'Di Ambang Batas: Perspektif Mahasiswa Informatika'
 date: '2018-08-09'
 tags:
   - editorial
-draft: true
+draft: false
 ---
 Jadi anda sudah kuliah --- hampir lulus, namun masih ada sesuatu yang mengganjal dihati kalian. Ada sebuah ketakutan, apalagi bagi mereka yang ingin meneruskan karir dibidang kuliah yang mereka ikuti, “Apakah yang saya pelajari di bangku kuliah cukup?”
 
@@ -25,7 +25,7 @@ Beberapa yang jenis pekerjaan yang disebutkan di atas memiliki kebutuhan kemampu
 
 Sebut saja *Full Stack Developer*, yang mewajibkan kita memiliki pengetahuan tentang *Frontend* dan *Backend* dari sebuah aplikasi; Pengembang *Backend*, yang harus memiliki kemampuan dasar sistem administrasi dan insinyur jaringan; dan bahkan pengembang *Mobile* selain pengetahuan teknis tentang pengembangan aplikasi *mobile*, harus juga memiliki kemampuan desain interaksi (UI/UX).
 
-![Passion](TamMbr4okv4)
+![Passion](https://source.unsplash.com/TamMbr4okv4/720x405)
 
 ## Menutup Kesenjangan
 
@@ -37,7 +37,7 @@ Sebut saja *Full Stack Developer*, yang mewajibkan kita memiliki pengetahuan ten
 - Pelajari hal baru. Ada sesuatu yang kamu tidak tahu? Cari, pelajari, dan pahami!
 - Terakhir, jangan lupa bersenang-senang.
 
-Selain daftar di atas, apa yang bisa kita lakukan saat masih di bangku mahasiswa adalah mulai membangun portofolio. Di tulisan saya [sebelumnya](), saya sudah mulai membuat resume untuk menampilkan portofolio saya. Memang portofolio saya sedikit, hal paling membanggakan dari portofolio saya adalah saya aktif berkolaborasi dengan [Solus Project](), pembuat sistem operasi yang saya pakai. Namun, tidak seharusnya hal tersebut membuat kita putus asa.
+Selain daftar di atas, apa yang bisa kita lakukan saat masih di bangku mahasiswa adalah mulai membangun portofolio. Di tulisan saya [sebelumnya](https://yurizal-san.com/blog/kenapa-membuat-r%C3%A9sum%C3%A9-dengan-latex/), saya sudah mulai membuat resume untuk menampilkan portofolio saya. Memang portofolio saya sedikit, hal paling membanggakan dari portofolio saya adalah saya aktif berkolaborasi dengan [Solus Project](https://yurizal-san.com/blog/solus-project-sebuah-pengalaman/), pembuat sistem operasi yang saya pakai. Namun, tidak seharusnya hal tersebut membuat saya putus asa.
 
 Waktu saya mungkin sudah sedikit lagi di bangku kuliah. Namun, bagi kaian yang menemukan tulisan ini --- saya harap kalian lebih sukses dalam menata jenjang kedepan kalian.
 
