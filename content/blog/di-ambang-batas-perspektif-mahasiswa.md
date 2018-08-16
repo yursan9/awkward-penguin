@@ -3,7 +3,7 @@ title: 'Di Ambang Batas: Perspektif Mahasiswa Informatika'
 date: '2018-08-09'
 tags:
   - editorial
-draft: false
+draft: true
 ---
 Jadi anda sudah kuliah --- hampir lulus, namun masih ada sesuatu yang mengganjal dihati kalian. Ada sebuah ketakutan, apalagi bagi mereka yang ingin meneruskan karir dibidang kuliah yang mereka ikuti, “Apakah yang saya pelajari di bangku kuliah cukup?”
 
