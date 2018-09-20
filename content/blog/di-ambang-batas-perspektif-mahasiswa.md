@@ -1,9 +1,9 @@
 ---
 title: 'Di Ambang Batas: Perspektif Mahasiswa Informatika'
-date: '2018-08-09'
+date: 2018-09-19T17:00:00.000Z
 tags:
   - editorial
-draft: true
+draft: false
 ---
 Jadi anda sudah kuliah --- hampir lulus, namun masih ada sesuatu yang mengganjal dihati kalian. Ada sebuah ketakutan, apalagi bagi mereka yang ingin meneruskan karir dibidang kuliah yang mereka ikuti, “Apakah yang saya pelajari di bangku kuliah cukup?”
 
@@ -31,13 +31,13 @@ Sebut saja *Full Stack Developer*, yang mewajibkan kita memiliki pengetahuan ten
 
 “Lalu apa yang bisa saya lakukan?” ini yang sering saya tanyakan dan masih belum menemukan jawaban yang pasti. Hanya saja, berbeda dengan beberapa semester yang lalu, beberapa hal yang mungkin bisa saya katakan sebagai nasihat adalah:
 
-- Belajar tentang VCS (Version Control System). VCS digunakan untuk berkolaborasi di setiap perusahaan IT.
+- Belajar tentang VCS (Version Control System), terutama Git. VCS digunakan untuk berkolaborasi di setiap perusahaan IT.
 - Pelajari satu bahasa pemrograman sampai anda merasa anda bisa mebuat sesuatu dengan bahasa itu.
 - Mulailah berpikir untuk memecah masalah besar ke langkah yang lebih kecil. Pola pikir ini akan sangat membantu nantinya.
 - Pelajari hal baru. Ada sesuatu yang kamu tidak tahu? Cari, pelajari, dan pahami!
 - Terakhir, jangan lupa bersenang-senang.
 
-Selain daftar di atas, apa yang bisa kita lakukan saat masih di bangku mahasiswa adalah mulai membangun portofolio. Di tulisan saya [sebelumnya](https://yurizal-san.com/blog/kenapa-membuat-r%C3%A9sum%C3%A9-dengan-latex/), saya sudah mulai membuat resume untuk menampilkan portofolio saya. Memang portofolio saya sedikit, hal paling membanggakan dari portofolio saya adalah saya aktif berkolaborasi dengan [Solus Project](https://yurizal-san.com/blog/solus-project-sebuah-pengalaman/), pembuat sistem operasi yang saya pakai. Namun, tidak seharusnya hal tersebut membuat saya putus asa.
+Selain daftar di atas, apa yang bisa kita lakukan saat masih di bangku mahasiswa adalah mulai membangun portofolio. Di tulisan saya [sebelumnya](https://yurizal-san.com/blog/kenapa-membuat-r%C3%A9sum%C3%A9-dengan-latex/), saya sudah mulai membuat resume untuk menampilkan portofolio saya. Memang portofolio saya sedikit, hal paling membanggakan dari portofolio saya adalah saya aktif berkolaborasi dengan [Solus Project](https://yurizal-san.com/blog/solus-project-sebuah-pengalaman/), pembuat sistem operasi yang saya pakai.
 
 Waktu saya mungkin sudah sedikit lagi di bangku kuliah. Namun, bagi kaian yang menemukan tulisan ini --- saya harap kalian lebih sukses dalam menata jenjang kedepan kalian.
 
