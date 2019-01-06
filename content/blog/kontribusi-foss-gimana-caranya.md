@@ -37,12 +37,12 @@ Sekarang udah lihat pengalaman saya, juga sudah baca kelebihan dari kontribusi F
 Kebetulan memulainya itu cukup gampang. Saya akan berikan urutan mulainya:
 
 1. Pilih proyek yang anda ingin berkontribusi. Misalnya; Linux distro yang dipakai atau aplikasi favorit. Pastikan proyek tersebut punya program mentoring, agar lebih mudah dalam memulai kontribusi.
-2. Setelah ketemu proyek yang ingin dibantu, pilih ingin berkontribusi apa. Beberapa distro Linux butuh foto yang bagus untuk me-\*refresh\* tampilan saat ada rilis versi baru. Beberapa aplikasi butuh laporan \*bug\* dan \*tester\*. Beberapa aplikasi juga tidak pernah diartikan tulisannya ke bahasa Indonesia. Pilih kontribusi kecil tapi bisa dilaksanakan konsisten.
+2. Setelah ketemu proyek yang ingin dibantu, pilih ingin berkontribusi apa. Beberapa distro Linux butuh foto yang bagus untuk me-*refresh* tampilan saat ada rilis versi baru. Beberapa aplikasi butuh laporan *bug* dan *tester*. Beberapa aplikasi juga tidak pernah diartikan tulisannya ke bahasa Indonesia. Pilih kontribusi kecil tapi bisa dilaksanakan konsisten.
 3. Hubungi pihak proyek! Mereka biasanya sangat senang dengan kontribusi baru, jadi jangan sungkan.
 4. Mulai berkontribusi! Ikut program mentoring kalau perlu.
 5. Setelah lama berkontribusi kecil, lakukan kontribusi lainnya seperti memulai melaporkan \*bug\* dan solusi menanganinya. Intinya, kalau ingin diakui harus lebih terlihat lagi kontribusinya.
 
-Daftar petunjuk kontribusi beberapa proyek:
+**Daftar petunjuk kontribusi beberapa proyek FOSS:**
 
 * <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction>
 * <https://www.gnome.org/get-involved/>
@@ -52,4 +52,4 @@ Daftar petunjuk kontribusi beberapa proyek:
 
 Mungkin sekian yang saya dapat sampaikan, hal paling menyulitkan untuk mulai berkontribusi adalah menangani rasa takut. Namun saat rasa takut itu hilang, kita merasa jadi bagian sesuatu hal yang lebih besar dari kita.
 
-i bid you adieu!
+I bid you adieu!
