@@ -48,8 +48,8 @@ pygmentsUseClasses = true
 	dateFmt = "Jan 02, 2006"
 	
 	# Section Configuration
-	postSection = "blog"
-	workSection = "work"
+	mainSections = ["blog"]
+	workSections = ["work"]
 
 	# Code Highlighting (HighlightJS)
 	highlightJs = false
