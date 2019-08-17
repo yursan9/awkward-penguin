@@ -1,4 +1,4 @@
-baseURL = "http://yurizal-san.com/"			# Site's URL
+baseURL = "https://yursan.id/"			# Site's URL
 title = "Yurizal Susanto"					# Site's Name
 theme = "manis"
 copyright = "&copy; 2019 Yurizal Susanto"	# Copyright notice. Note: You can use HTML tag here
