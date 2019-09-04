@@ -1,12 +1,10 @@
 ---
-title: HTTP Middleware dengan Go
-date: 2019-09-04T05:19:41.868Z
+title: Membuat Middleware dengan Go
+date: 2019-09-04T03:58:41.370Z
 tags:
   - go
   - middleware
   - tutorial
-  - programming
-draft: false
 ---
 Pernah mendengar kata *middleware* saat menggunakan bahasa pemrograman Go? Biasanya konteks dari kata tersebut adalah saat membuat sesuatu yang berhubungan dengan server web.
 
@@ -20,7 +18,7 @@ Biasanya orang akan mengatakan untuk membuat *middleware* otentikasi, atau terka
 
 Kalau pernah menggunakan bahasa pemrograman Python, pola *middleware* ini bisa juga disebut sebagai pola *decorator*. Kenapa *middleware* bisa dibuat? Alasan utamanya adalah karena bahasa pemrograman yang mendukung pola ini menjadikan fungsi sebagai warga kelas satu. Artinya dalam konteks pemrograman, fungsi bisa digunakan sebagai nilai masukan dan keluaran.
 
-```
+```go
 package main
 
 import (
@@ -49,7 +47,7 @@ Dalam program di atas ([playground](https://play.golang.org/p/IWcQas-qgmC)), fun
 
 Dalam go, ada sebuah tipe *interface* bernama `Handler`, dari paket `http`, yang memiliki pola seperti di bawah ini:
 
-```
+```go
 type Handler interface {
         ServeHTTP(ResponseWriter, *Request)
 }
@@ -57,7 +55,7 @@ type Handler interface {
 
 Tipe `Handler` adalah tipe yang diimplementasikan oleh fungsi yang melayani *endpoint*. Misal ada sebuah program seperti di bawah ini:
 
-```
+```go
 package main
 
 import (
@@ -86,7 +84,7 @@ Seperti yang sudah didefinisikan, *middleware* membungkus panggilan dari fungsi 
 
 Jadi kita buat *middleware* yang berfungsi mencetak kata saat sebelum dan sesudah pemanggilan `indexHandler`.
 
-```
+```go
 func withLogging(next http.Handler) http.Handler {
 	return html.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		log.Println("Handler dipanggil")
@@ -100,7 +98,7 @@ Fungsi `withLogging` adalah fungsi yang menerima argumen bertipe `http.Handler` 
 
 Lalu ubah penggunaan variabel `h`, yang merupakan fungsi `indexHandler`, menjadi seperti di bawah ini:
 
-```
+```go
 http.Handle("/", withLogging(h))
 ```
 
@@ -108,7 +106,7 @@ http.Handle("/", withLogging(h))
 
 Di bawah ini adalah contoh *middleware* untuk otentikasi sederhana menggunakan *username* dan *password* yang diberikan melalui *header* Authorization:
 
-```
+```go
 func WithAuth(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		username, password, ok := r.BasicAuth()
@@ -138,4 +136,4 @@ func WithAuth(next http.Handler) http.Handler {
 
 ## Penutup
 
-Terima kasih sudah membaca sampai sejauh ini, jika ada pertanyaan atau ada sesuatu yang kurang dimengerti, bisa langsung kirim surel!
+Terima kasih sudah membaca sampai sejauh ini, jika ada pertanyaan atau ada sesuatu yang kurang dimengerti, bisa langsung kirim surel atau membuat komentar!
