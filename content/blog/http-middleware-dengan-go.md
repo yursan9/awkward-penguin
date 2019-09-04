@@ -104,3 +104,38 @@ Lalu ubah penggunaan variabel `h`, yang merupakan fungsi `indexHandler`, menjadi
 http.Handle("/", withLogging(h))
 ```
 
+## Contoh *Middleware* Otentikasi
+
+Di bawah ini adalah contoh *middleware* untuk otentikasi sederhana menggunakan *username* dan *password* yang diberikan melalui *header* Authorization:
+
+```
+func WithAuth(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		username, password, ok := r.BasicAuth()
+		if !ok {
+			http.Error(w, "No API key provided", http.StatusUnauthorized)
+			return
+		}
+
+		// Cek pengguna pada database
+		ok := IsValid(username)
+		if !ok {
+			http.Error(w, "Invalid user", http.StatusForbidden)
+			return
+		}
+
+		// Cek kata sandi pada database
+		ok = IsPassValid(username, password)
+		if !ok {
+			http.Error(w, "Invalid password", http.StatusForbidden)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}
+```
+
+## Penutup
+
+Terima kasih sudah membaca sampai sejauh ini, jika ada pertanyaan atau ada sesuatu yang kurang dimengerti, bisa langsung kirim surel!
