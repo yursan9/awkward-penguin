@@ -55,7 +55,7 @@ pygmentsUseClasses = true
 	utterancesSections = [ "blog" ]
 	
 	# Utterances Configuration
-	utterancesRepo = "yursan9/awkward-penguin"
+	utterancesRepo = "https://github.com/yursan9/awkward-penguin"
 	utterancesTheme = "github-light"
 	utterancesLabel = "comment"
 
