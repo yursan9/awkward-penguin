@@ -42,7 +42,7 @@ pygmentsUseClasses = true
 
 	# 404 Configuration
 	head404 = "Maaf, halaman yang anda inginkan tidak dapat ditemukan."
-	sub404 = "Kembali ke halaman <a href='http://yurizal-san.com'>Utama</a>."
+	sub404 = "Kembali ke halaman <a href='https://yursan.id'>Utama</a>."
 
 	colorTheme = "#1eacfb"
 	latestCount = 3
@@ -55,7 +55,7 @@ pygmentsUseClasses = true
 	utterancesSections = [ "blog" ]
 	
 	# Utterances Configuration
-	utterancesRepo = "https://github.com/yursan9/awkward-penguin"
+	utterancesRepo = "yursan9/awkward-penguin"
 	utterancesTheme = "github-light"
 	utterancesLabel = "comment"
 
