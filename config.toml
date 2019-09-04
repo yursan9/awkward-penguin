@@ -32,7 +32,9 @@ pygmentsUseClasses = true
 
 
 [params]
-	debugCSS = false
+	# Custom CSS
+	customCSS = []
+
 	description = "Tempat saya kembali berpikir, jika kode sudah tidak berfungsi lagi."
 	tagline = "Pandangan awam pemula"
 	themeAttrib = true
@@ -50,6 +52,12 @@ pygmentsUseClasses = true
 	# Section Configuration
 	mainSections = ["blog"]
 	workSections = ["work"]
+	utterancesSections = [ "blog" ]
+	
+	# Utterances Configuration
+	utterancesRepo = "yursan9/awkward-penguin"
+	utterancesTheme = "github-light"
+	utterancesLabel = "comment"
 
 	# Code Highlighting (HighlightJS)
 	highlightJs = false
