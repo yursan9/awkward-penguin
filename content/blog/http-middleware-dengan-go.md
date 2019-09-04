@@ -6,7 +6,7 @@ tags:
   - middleware
   - tutorial
   - programming
-draft: true
+draft: false
 ---
 Pernah mendengar kata *middleware* saat menggunakan bahasa pemrograman Go? Biasanya konteks dari kata tersebut adalah saat membuat sesuatu yang berhubungan dengan server web.
 
