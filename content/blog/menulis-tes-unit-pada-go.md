@@ -87,6 +87,13 @@ func TestSpam(t *testing.T) {
 
 Dengan memanfaatkan *slice* yang berisi sebuah *struct*, kita bisa menulis setiap kasus pengujian. Menjalankan tes jadi lebih mudah dengan hanya perlu me-*loop* bagian kasus pengujiannya saja.
 
+Hasilnya:
+```
+$ go test
+PASS
+ok  	~/Documents/go-test	0.003s
+```
+
 ## Penutup
 
 Tulisan di atas adalah pengenalan untuk menulis *unit test*. Beruntungnya go memiliki framework tes yang cukup baik menurut saya. Namun, masih banyak hal yang bisa ditulis tentang *testing*; misalnya *mocking* objek, tes HTTP server, *coverage*, dan lain-lain. Jadi tunggu tulisan selanjutnya dari saya!
