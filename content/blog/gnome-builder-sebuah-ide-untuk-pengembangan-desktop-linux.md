@@ -25,5 +25,33 @@ Builder memiliki fitur seperti IDE pada umumnya, yaitu:
 
 ![Tampilan awal Builder; terdapat daftar proyek dan juga daftar pilihan seperti; buat proyek baru, pilih proyek dari folder, dan lain-lain](/images/uploads/builder-greeter.png)
 
-Pertama kali dibuka, Builder akan menampilkan tampilan awal untuk memilih proyek yang akan dikembangkan. Selain itu, di jendela awal ini kita juga bisa meng-*clone* proyek aplikasi Gnome yang lain untuk berkontribusi atau belajar. Bila kalian memilih *Start New Project*, kalian akan ditampilkan jendela seperti di bawah ini:
+Pertama kali dibuka, Builder akan menampilkan tampilan awal untuk memilih proyek yang akan dikembangkan. Selain itu, di jendela awal ini kita juga bisa meng-_clone_ proyek aplikasi Gnome yang lain untuk berkontribusi atau belajar. Bila kalian memilih _Start New Project_, kalian akan ditampilkan jendela seperti di bawah ini:
 
+![Tampilan membuat proyek aplikasi baru](/images/uploads/builder-new-project.png)
+
+Kalian dapat membuat proyek aplikasi baru dan memberikan informasi tentang proyek tersebut. Kita juga dapat memilih cetakan untuk memudahkan dalam memulai. Beberapa jenis bahasa pemrograman bisa dipilih di sini, seperti:
+
+* C
+* Javascript
+* Python
+* Vala
+* C++
+* C#
+
+Setelah itu, pilih lisensi untuk program yang dibuat. Jika kalian mengklik tombol Create Project, kalian secara otomatis akan dibuatkan proyek yang sudah siap untuk kalian utak-atik. Berkas yang ada pada proyek, akan otomatis sesuai dengan pilihan bahasa pemrograman yang kalian pilih.
+
+## Tampilan Editor
+
+![](/images/uploads/builder-main-view.png)
+
+Di sisi kiri terdapat sidebar yang berisi tentang daftar berkas-berkas yang ada pada proyek. _Sidebar_ ini juga memiliki tampilan lain untuk melihat _TODO_ atau barisan _error_ pada proyek yang dapat diakses dengan 3 tombol yang berjejer di atasnya.
+
+Di sisi bawah terdapat pusat informasi dan terminal. Setiap log pasti akan ditampilkan disini dan jika ingin mengakses terminal juga bisa langsung dari sini tanpa perlu membuka terminal emulator yang baru.
+
+Di sisi atas adalah tombol untuk mengubah pengaturan editor. Selain itu, ada juga tombol untuk menjalankan program dan mencari file secara global dalam proyek. Di pojok paling kiri, kita bisa mengakses tampilan pengaturan dan _profilling_ dengan mengklik tombol dan mengakses tampilan yang dilihat.
+
+## Tampilan Editor GUI
+
+Untuk membuat tampilan grafis pada program, kita dapat menggunakan XML dengan ekstensi \`.ui\` di Gnome Builder. Namun, kita juga bisa membuat tampilan secara grafis tanpa perlu mengetahui notasi XML yang digunakan.
+
+![](/images/uploads/builder-ui-source.png)
