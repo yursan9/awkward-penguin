@@ -1,6 +1,6 @@
 ---
 title: 'Gnome Builder: Sebuah IDE untuk pengembangan desktop Linux'
-date: 2019-09-15T02:55:21.137Z
+date: 2019-09-16T02:55:21.137Z
 tags:
   - linux
   - application
