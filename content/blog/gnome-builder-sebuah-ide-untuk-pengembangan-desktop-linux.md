@@ -48,10 +48,20 @@ Di sisi kiri terdapat sidebar yang berisi tentang daftar berkas-berkas yang ada 
 
 Di sisi bawah terdapat pusat informasi dan terminal. Setiap log pasti akan ditampilkan disini dan jika ingin mengakses terminal juga bisa langsung dari sini tanpa perlu membuka terminal emulator yang baru.
 
-Di sisi atas adalah tombol untuk mengubah pengaturan editor. Selain itu, ada juga tombol untuk menjalankan program dan mencari file secara global dalam proyek. Di pojok paling kiri, kita bisa mengakses tampilan pengaturan dan _profilling_ dengan mengklik tombol dan mengakses tampilan yang dilihat.
+Di sisi atas adalah kumpulan tombol untuk mengubah pengaturan editor. Selain itu, ada juga tombol untuk menjalankan program dan mencari file secara global dalam proyek. Di pojok paling kiri, kita bisa mengakses tampilan pengaturan dan _profilling_ dengan mengklik tombol dan mengakses tampilan yang dilihat.
 
 ## Tampilan Editor GUI
 
 Untuk membuat tampilan grafis pada program, kita dapat menggunakan XML dengan ekstensi \`.ui\` di Gnome Builder. Namun, kita juga bisa membuat tampilan secara grafis tanpa perlu mengetahui notasi XML yang digunakan.
 
-![](/images/uploads/builder-ui-source.png)
+![Di bagian kanan atas editor terdapat tombol View Design yang bisa digunakan untuk melihat hasil desain dari XML](/images/uploads/builder-ui-source.png)
+
+Di bagian kanan atas editor terdapat tombol _View Design_ yang bisa digunakan untuk melihat hasil desain dari XML dan juga untuk mendesain tampilan secara grafik.
+
+![](/images/uploads/builder-ui-design.png)
+
+Jika menekan _View Design_, tampilan editor akan berubah sehinga lebih cocok untuk membuat tampilan untuk membuat GUI aplikasi. Di sisi kanan terdapat _sidebar_ yang berisi pengaturan sifat dari _widget_ yang sedang dipilih. Selain itu, di bawah ada deretan tombol untuk menambahkan _widget_ sesuai jenisnya; misal _Toplevels_, _Containers_, dan lain-lain.
+
+\## Penutup
+
+Sekian perkenalan program kali ini. Lain kali, mungkin akan saya buatkan seri tutorial untuk membuat aplikasi dengan Gnome Builder. Sampai jumpa di tulisan selanjutnya.
