@@ -62,6 +62,6 @@ Di bagian kanan atas editor terdapat tombol _View Design_ yang bisa digunakan un
 
 Jika menekan _View Design_, tampilan editor akan berubah sehinga lebih cocok untuk membuat tampilan untuk membuat GUI aplikasi. Di sisi kanan terdapat _sidebar_ yang berisi pengaturan sifat dari _widget_ yang sedang dipilih. Selain itu, di bawah ada deretan tombol untuk menambahkan _widget_ sesuai jenisnya; misal _Toplevels_, _Containers_, dan lain-lain.
 
-\## Penutup
+## Penutup
 
 Sekian perkenalan program kali ini. Lain kali, mungkin akan saya buatkan seri tutorial untuk membuat aplikasi dengan Gnome Builder. Sampai jumpa di tulisan selanjutnya.
