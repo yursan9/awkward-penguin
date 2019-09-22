@@ -28,3 +28,5 @@ Saat saya membuat aplikasi untuk melihat waktu shalat ([github](https://github.c
 Sehingga tulisan ini akan membahas tentang penggunaan `threading` dan Gtk.
 
 ## Contoh Program Sederhana
+
+Program di bawah akan membuat 
