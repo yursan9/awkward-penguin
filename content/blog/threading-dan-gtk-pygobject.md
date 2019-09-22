@@ -23,4 +23,8 @@ Penggunaan Python dan Gtk harus melalui pustaka PyGObject yang dapat diunduh pad
 
 > Lihat berkas [*Getting Started*](https://pygobject.readthedocs.io/en/latest/getting_started.html) dari PyGObject untuk proses instalasi.
 
-Saat saya membuat aplikasi untuk melihat waktu shalat ([github](https://github.com/yursan9/arkan)), saya harus mengunduh berkas yang dihasilkan dari API yang saya gunakan. Setiap saya mengunduh, seluruh interaksi ke aplikasi menjadi tidak bisa dilakukan karena saya melakukan proses pengunduhan di alur utama. Sehingga tulisan ini akan membahas tentang penggunaan *thread* dan Gtk.
+Saat saya membuat aplikasi untuk melihat waktu shalat ([github](https://github.com/yursan9/arkan)), saya harus mengunduh berkas yang dihasilkan dari API yang saya gunakan. Setiap saya mengunduh, seluruh interaksi ke aplikasi menjadi tidak bisa dilakukan karena saya melakukan proses pengunduhan di alur utama. Sebelum akhirnya saya memisahkan panggilan API di alur lain dengan modul `threading`.
+
+Sehingga tulisan ini akan membahas tentang penggunaan `threading` dan Gtk.
+
+## Contoh Program Sederhana
