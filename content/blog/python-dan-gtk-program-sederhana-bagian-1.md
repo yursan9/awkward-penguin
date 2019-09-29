@@ -72,7 +72,7 @@ Pembuatan aplikasi Gtk dapat menggunakan kumpulan fungsi, namun menurut saya pem
 
 Kelas `Application` adalah anak dari [`Gtk.Application`](https://lazka.github.io/pgi-docs/Gtk-3.0/classes/Application.html#Gtk.Application) yang merupakan kelas yang memberikan kemudahan untuk memanajemen objek aplikasi dalam kode. `Gtk.Application` melakukan banyak fungsi aplikasi modern; misalnya instansiasi aplikasi, integrasi dengan OS, manajemen sesi, dan lain-lain; sehingga jika kita tidak menggunakannya kita akan melakukan banyak hal yang sudah diberikan oleh `Gtk.Application`.
 
-```
+```python3
 class Application(Gtk.Application):
     def __init__(self, **kwargs):
         super().__init__(application_id='com.example.myapp',
@@ -81,8 +81,7 @@ class Application(Gtk.Application):
 
 Pada konstruktor kita hanya menjalankan inisialisasi dari `Gtk.Application` dan memberikan parameter `application_id`. Setiap aplikasi Gtk memiliki sebuah `application_id` yang terbuat dari nama domain yang dibalik plus nama aplikasi.
 
-```
-
+```python3
 class Application(Gtk.Application):
     ...
     def do_activate(self):
@@ -93,4 +92,44 @@ class Application(Gtk.Application):
         win.present()
 ```
 
-Metode `do_activate()` adalah sebuah 
+Metode `do_activate()` adalah sebuah *callback* yang otomatis dipanggil saat aplikasi pertama kali dijalankan. Di dalam metode tersebut kita akan cek apakah ada jendela aplikasi sedang berjalan, jika tidak ada maka akan dibuat objek jendela aplikasi.
+
+```python3
+class AppWindow(Gtk.ApplicationWindow):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        box = Gtk.Box(spacing=8,
+                      border_width=18,
+                      orientation=Gtk.Orientation.VERTICAL)
+        
+        label = Gtk.Label(label='Hello!')
+        box.add(label)
+
+        button = Gtk.Button(label='Click Me')
+        box.add(button)
+
+        self.add(box)
+        self.show_all()
+```
+
+Kelas `AppWindow` adalah kelas yang membungkus semua tampilan objek aplikasi kita. `AppWindow` mewarisi sifat dari `Gtk.ApplicationWindow`.
+
+Di awal metode konstruktor, seperti yang dilakukan pada kelas `Application`, kita memanggil konstruktor dari kelas yang diwarisi. Setelah itu, kita akan membuat para *widget* yang akan ditampilkan pada jendela.
+
+Dalam Gtk, untuk meletakan *widget* perlu sebuah wadah. Wadah ini adalah sebuah *widget* bertipe [`Gtk.Container`](https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Container.html#Gtk.Container). [`Gtk.Box`](https://lazka.github.io/pgi-docs/Gtk-3.0/classes/Box.html#Gtk.Box) adalah salah satu tipe kontainer yang bisa digunakan. Kontainer `Gtk.Box` memiliki orientasi vertikal atau horizontal. Jika kita menambahkan sesuatu ke dalam `Gtk.Box` maka posisi *widget* tersebut akan terletak di bawah atau di samping kiri dari *widget* lain tergantung orientasinya.
+
+[`Gtk.Label`](https://lazka.github.io/pgi-docs/index.html#Gtk-3.0/classes/Label.html#Gtk.Label) adalah *widget* yang bertugas menampilkan tulisan. [`Gtk.Button`](https://lazka.github.io/pgi-docs/Gtk-3.0/classes/Button.html#Gtk.Button) adalah *widget* yang menampilkan tombol yang bisa ditekan. Setiap pembuatan *widget* kita dapat memberikan properti atau atribut yang ingin kita ganti seperti misalnya:
+
+```python3
+box = Gtk.Box(spacing=8,
+              border_width=18,
+              orientation=Gtk.Orientation.VERTICAL)
+```
+
+Lalu yang terakhir adalah baris perintah untuk menjalankan aplikasi:
+
+```python3
+if __name__ == '__main__':
+    app = Application()
+    app.run()
+```
