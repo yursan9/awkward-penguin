@@ -127,6 +127,8 @@ box = Gtk.Box(spacing=8,
               orientation=Gtk.Orientation.VERTICAL)
 ```
 
+> Gunakan [referensi API PyGObject](https://lazka.github.io/pgi-docs/index.html) untuk membantu dalam mencari metode atau properti dari kelas *widget*.
+
 Lalu yang terakhir adalah baris perintah untuk menjalankan aplikasi:
 
 ```python3
