@@ -72,3 +72,25 @@ Pembuatan aplikasi Gtk dapat menggunakan kumpulan fungsi, namun menurut saya pem
 
 Kelas `Application` adalah anak dari [`Gtk.Application`](https://lazka.github.io/pgi-docs/Gtk-3.0/classes/Application.html#Gtk.Application) yang merupakan kelas yang memberikan kemudahan untuk memanajemen objek aplikasi dalam kode. `Gtk.Application` melakukan banyak fungsi aplikasi modern; misalnya instansiasi aplikasi, integrasi dengan OS, manajemen sesi, dan lain-lain; sehingga jika kita tidak menggunakannya kita akan melakukan banyak hal yang sudah diberikan oleh `Gtk.Application`.
 
+```
+class Application(Gtk.Application):
+    def __init__(self, **kwargs):
+        super().__init__(application_id='com.example.myapp',
+                         **kwargs)
+```
+
+Pada konstruktor kita hanya menjalankan inisialisasi dari `Gtk.Application` dan memberikan parameter `application_id`. Setiap aplikasi Gtk memiliki sebuah `application_id` yang terbuat dari nama domain yang dibalik plus nama aplikasi.
+
+```
+
+class Application(Gtk.Application):
+    ...
+    def do_activate(self):
+        win = self.get_active_window()
+        if not win:
+            win = AppWindow(application=self)
+
+        win.present()
+```
+
+Metode `do_activate()` adalah sebuah 
