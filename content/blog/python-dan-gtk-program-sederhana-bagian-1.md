@@ -180,13 +180,13 @@ Jalankan aplikasi untuk mencoba, jika saat kalian menekan tombol muncul tulisan 
 
 Selanjutnya untuk dapat mengubah tulisan *Hello!* menajadi *Hello, Nama!*, kita perlu mengubah pemanggilan metode `connect()` dan juga mengimpor modul `os` untuk mendapatkan *username*.
 
-```
+```python3
 button.connect('clicked', self.on_button_clicked, label)
 ```
 
 Tambahkan satu parameter lagi, yaitu label, karena kita ingin memanipulasi *widget* label yang kita buat.
 
-```
+```python3
 def on_button_clicked(self, button, label):
     user = os.getlogin()
     label.set_label('Hello, {}!'.format(user.title()))
@@ -196,7 +196,7 @@ Ubah pola metode `on_button_clicked` dengan menambahkan satu parameter lagi untu
 
 Hasil kode terakhir:
 
-```
+```python3
 import os
 import gi
 gi.require_version('Gtk', '3.0')
