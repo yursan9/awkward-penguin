@@ -174,6 +174,76 @@ Buat metode `on_button_clicked` pada kelas `AppWindow`. Isi dengan perintah di b
         print('Tombol di klik')
 ```
 
+Setiap *callback* menerima parameter paling sedikit adalah 1 yaitu, *widget* yang mengirim sinyal.
+
 Jalankan aplikasi untuk mencoba, jika saat kalian menekan tombol muncul tulisan *Tombol di klik* di terminal atau CMD, berarti *callback* berhasil dibuat.
 
-Selanjutnya untuk dapat mengubah tulisan *Hello!* menajadi *Hello, Nama!*, kita perlu mengubah pemanggilan metode `connect()` dan juga mengimpor modul `sys`. 
+Selanjutnya untuk dapat mengubah tulisan *Hello!* menajadi *Hello, Nama!*, kita perlu mengubah pemanggilan metode `connect()` dan juga mengimpor modul `os` untuk mendapatkan *username*.
+
+```
+button.connect('clicked', self.on_button_clicked, label)
+```
+
+Tambahkan satu parameter lagi, yaitu label, karena kita ingin memanipulasi *widget* label yang kita buat.
+
+```
+def on_button_clicked(self, button, label):
+    user = os.getlogin()
+    label.set_label('Hello, {}!'.format(user.title()))
+```
+
+Ubah pola metode `on_button_clicked` dengan menambahkan satu parameter lagi untuk menerima label yang diberikan saat pemanggilan `connect()`. Lalu dapatkan *username* yang sedang dipakai dan masukkan ke dalam *widget* label.
+
+Contoh kode akhir:
+
+```
+import os
+import gi
+gi.require_version('Gtk', '3.0')
+
+from gi.repository import Gtk
+
+
+class Application(Gtk.Application):
+    def __init__(self, **kwargs):
+        super().__init__(application_id='com.example.myapp',
+                         **kwargs)
+
+    def do_activate(self):
+        win = self.get_active_window()
+        if not win:
+            win = AppWindow(application=self)
+
+        win.present()
+
+
+class AppWindow(Gtk.ApplicationWindow):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        box = Gtk.Box(spacing=8,
+                      border_width=18,
+                      orientation=Gtk.Orientation.VERTICAL)
+        
+        label = Gtk.Label(label='Hello!')
+        box.add(label)
+
+        button = Gtk.Button(label='Click Me')
+        button.connect('clicked', self.on_button_clicked, label)
+        box.add(button)
+
+        self.add(box)
+        self.show_all()
+
+    def on_button_clicked(self, button, label):
+        user = os.getlogin()
+        label.set_label('Hello, {}!'.format(user.title()))
+
+
+if __name__ == '__main__':
+    app = Application()
+    app.run()
+```
+
+## Penutup
+
+Silahkan jalankan program yang sudah dibuat. Setelah tulisan ini, saya akan membahas tentang membuat aplikasi sederhana lainnya dengan memanfaatkan [Glade](https://glade.gnome.org/), sebuah aplikasi untuk mendesain tampilan GUI. Jadi tunggu tulisan selanjutnya!
