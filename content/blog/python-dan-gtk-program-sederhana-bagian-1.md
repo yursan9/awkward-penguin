@@ -194,7 +194,7 @@ def on_button_clicked(self, button, label):
 
 Ubah pola metode `on_button_clicked` dengan menambahkan satu parameter lagi untuk menerima label yang diberikan saat pemanggilan `connect()`. Lalu dapatkan *username* yang sedang dipakai dan masukkan ke dalam *widget* label.
 
-Contoh kode akhir:
+Hasil kode terakhir:
 
 ```
 import os
