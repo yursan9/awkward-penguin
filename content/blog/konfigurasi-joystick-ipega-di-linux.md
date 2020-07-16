@@ -1,12 +1,12 @@
-+++
-title = "Konfigurasi Joystick Ipega PG-9025 di Linux"
-date = "2017-09-19T09:21:21+07:00"
-tags = [
-  "gaming",
-  "tutorial",
-  "linux"
-]
-+++
+---
+title: Konfigurasi Joystick Ipega PG-9025 di Linux
+date: 2017-09-19T09:21:21+07:00
+tags:
+  - gaming
+  - tutorial
+  - linux
+  - udev
+---
 
 *Joystick* adalah aksesoris penting bagi mereka yang senang bermain permainan video (*video game*). Berkembang pesatnya dukungan permainan video di Linux, membuat banyak orang mulai bermain *game* menggunakan Linux. Namun, biasanya dukungan perangkat *joystick* terbatas di Linux. Seperti halnya *joystick* Ipega PG-9025 yang baru saya beli.
 
