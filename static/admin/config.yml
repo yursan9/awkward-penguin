@@ -5,7 +5,9 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 display_url: https://yursan.id
+site_url: https://yursan.id
 publish_mode: editorial_workflow
+show_preview_links: true
 
 collections:
     - name: "blog"
@@ -17,6 +19,7 @@ collections:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "date"}
         - {label: "Tags", name: "tags", widget: "list"}
+        - {label: "Draft", name: "draft", widget: "boolean", default: true}
         - {label: "Body", name: "body", widget: "markdown"}
 
     - name: "karya"
@@ -28,6 +31,7 @@ collections:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "date"}
         - {label: "Tags", name: "tags", widget: "list"}
+        - {label: "Draft", name: "draft", widget: "boolean", default: true}
         - {label: "Homepage URL", name: "workURL", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
 
@@ -39,4 +43,5 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "date"}
+        - {label: "Draft", name: "draft", widget: "boolean", default: true}
         - {label: "Body", name: "body", widget: "markdown"}

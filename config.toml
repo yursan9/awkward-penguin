@@ -1,7 +1,7 @@
 baseURL = "https://yursan.id/"			# Site's URL
 title = "Yurizal Susanto"					# Site's Name
 theme = "manis"
-copyright = "&copy; 2019 Yurizal Susanto"	# Copyright notice. Note: You can use HTML tag here
+copyright = "&copy; 2020 Yurizal Susanto"	# Copyright notice. Note: You can use HTML tag here
 pluralizeListTitles = false
 paginate = 10								# Minimum number of item before paginate navigation show up
 canonifyURL = true
