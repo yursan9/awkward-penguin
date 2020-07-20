@@ -12,7 +12,7 @@ Ternyata kesalahan ada di *firmware* bluetooth yg digunakan laptop saya (Realtek
 
 ## Permasalahan
 
-Perangkat bluetooth ini terkena sistem *auto-suspend* Linux, kernel linux biasanya akan meregulasi segala penggunaan daya di perangkat komputer dan kalau gak digunakan dia akan mematikan perangkat tersebut. Karena dukungan *firmware/driver* yang jelek untuk beberapa perangkat, perangkat tidak bisa memberitahu linux bahwa dia sedang digunakan. Kita harus secara manual memberitahu Linux untuk tidak mematikan perangkat bluetooth secara otomatis.
+Perangkat bluetooth ini terkena sistem *auto-suspend* Linux, kernel linux biasanya akan meregulasi segala penggunaan daya di perangkat komputer dan kalau tidak digunakan dia akan mematikan perangkat tersebut. Karena dukungan *firmware/driver* yang jelek untuk beberapa perangkat, perangkat tidak bisa memberitahu linux bahwa dia sedang digunakan. Kita harus secara manual memberitahu Linux untuk tidak mematikan perangkat bluetooth secara otomatis.
 
 ## Mulai memperbaiki
 
@@ -79,7 +79,7 @@ Lalu masukkan isi kira-kira mirip seperti di bawah ini:
 ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0bda", ATTR{idProduct}=="b728", TEST=="power/control", ATTR{power/control}="on"
 ```
 
-Pastikan `idVendor` dan `idProduct sesuai dengan perangkat bluetooth terpasang dan format keluaran `lsusb`.
+Pastikan `idVendor` dan `idProduct` sesuai dengan perangkat bluetooth terpasang dan format keluaran `lsusb`.
 
 ## Penutup
 
